@@ -24,7 +24,6 @@ saveButton.addEventListener('click', () => {
 })
 
 loadButton.addEventListener('click', () => {
-    localStorage.getItem('entry', entryInput.value);
     entryInput.value = entry;
 })
 
