@@ -20,11 +20,13 @@ const clearButton = document.querySelector('.button--clear-js')
 
 saveButton.addEventListener('click', () => {
     localStorage.setItem('entry', entryInput.value);
-    entryInput.value = '';
+    location.reload();
 })
 
 loadButton.addEventListener('click', () => {
     entryInput.value = entry;
+
+
 })
 
 clearButton.addEventListener('click', () => {
