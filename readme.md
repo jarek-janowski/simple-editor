@@ -1,18 +1,11 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](./gh/cover.png)
 
-# WTF Webpack Starter Kit 
+View this project live at [Github Pages.](https://jarek-janowski.github.io/simple-editor/)
 
-Simple toolkit for your static websites development.
+# Simple editor
+
+It's just simple local storage editor, you can add & load or clear data from local storage
 
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+Just clone repository and run 'npm install'.
