@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 0;
+
+    @media screen and(min-width: 768px) {
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: flex-start;
+        margin: 90px 20px 0;
+    }
+}
+
+.wrapper-2 {
+    display: flex;
+    margin-top: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: flex-start;
+        min-width: 80%;
+    }
+}
+
+.button {
+    cursor: pointer;
+    background: #374f91;
+    border: none;
+    color: inherit;
+    box-shadow: $neumorphism;
+    min-width: 40%;
+    padding: 12px 0;
+    border-radius: 8px;
+    outline: none;
+
+    @media screen and(min-width: 768px) {
+        margin-bottom: 20px;
+    }
+
+    &--special {
+
+        margin: 64px auto 20px;
+        min-width: 80%;
+
+
+        @media screen and (min-width: 768px) {
+            min-width: 30%;
+            align-self: flex-start;
+            margin: 0 16% 80px 0;
+        }
+
+
+    }
+}

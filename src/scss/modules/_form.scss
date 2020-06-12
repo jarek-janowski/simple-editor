@@ -1,0 +1,38 @@
+.form {
+    @media screen and (min-width: 768px) {
+        flex-grow: 5;
+    }
+
+    &__textarea {
+        resize: none;
+        display: block;
+        min-width: 80%;
+        margin: 70px auto 0;
+        min-height: 300px;
+        border-radius: 16px;
+        background: #374f91;
+        padding: 16px;
+        color: inherit;
+        border: none;
+        box-shadow: $neumorphism__inset;
+
+
+        @media screen and (min-width: 768px) {
+
+
+            min-height: 400px;
+            min-width: 90%;
+            margin: 70px 0 0 8%;
+
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: $neumorphism__inset--focus;
+        }
+
+        &::placeholder {
+            color: #aaa;
+        }
+    }
+}
