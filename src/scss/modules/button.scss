@@ -1,0 +1,32 @@
+.button-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 0;
+
+    @media screen and(min-width: 768px) {}
+}
+
+.button {
+    cursor: pointer;
+    background: #374f91;
+    border: none;
+    color: inherit;
+    box-shadow: $neumorphism;
+    min-width: 40%;
+    padding: 12px 0;
+    border-radius: 8px;
+    outline: none;
+
+    @media screen and(min-width: 768px) {}
+
+    &--special {
+        display: block;
+        margin: 64px auto 20px;
+        min-width: 80%;
+
+
+        @media screen and (min-width: 768px) {}
+
+
+    }
+}

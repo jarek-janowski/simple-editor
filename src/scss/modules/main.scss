@@ -1,33 +1,33 @@
 .main {
+    align-self: center;
     margin: 20px 0;
     border-radius: 16px;
     background: #374f91;
     min-width: 90vw;
+    min-height: 90vh;
 
-    align-self: center;
 
     @media screen and (min-width: 768px) {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        flex-wrap: wrap;
-        min-width: 50%;
-        min-height: 80vh;
+        min-width: 70%;
+        min-height: 50%;
+    }
+
+    @media screen and (min-width: 1025px) {
+        min-width: 40%;
+
     }
 
     &__heading {
-        margin: 20px auto;
+        margin: 30px auto;
         border-radius: 16px;
         padding: 8px;
         text-align: center;
         max-width: 80%;
         box-shadow: $neumorphism;
+        font-size: 22px;
 
         @media screen and (min-width: 768px) {
-
-            align-self: center;
-            min-width: 70%;
-            margin: 48px 14% 0 0;
+            font-size: 32px;
         }
     }
 }
